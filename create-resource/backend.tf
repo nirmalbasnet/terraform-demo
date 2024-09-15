@@ -1,6 +1,7 @@
 terraform {
   backend "s3" {
-    bucket = "terraform-demo-state-files"
+    bucket = "nirmalbasnet"
     region = "ap-south-1"
+    key    = "terraform-demo/state-files"
   }
 }
