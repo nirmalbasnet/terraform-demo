@@ -1,0 +1,2 @@
+aws_region       = "*****"
+instance_tenancy = "*****"
